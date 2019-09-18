@@ -1,5 +1,9 @@
 server:
   port: 9010
+  ssl:
+    key-store: classpath:jojo.key
+    key-store-password: 123456
+    key-password: 123456
 spring:
   application:
     name: user-api
@@ -10,3 +14,4 @@ spring:
     password: 123456
   jpa:
     show-sql: true
+    generate-ddl: true

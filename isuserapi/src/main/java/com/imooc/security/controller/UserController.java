@@ -1,11 +1,10 @@
 package com.imooc.security.controller;
 
+import com.imooc.security.dto.UserInfo;
 import com.imooc.security.entity.User;
 import com.imooc.security.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -15,6 +14,11 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @PostMapping
+    public UserInfo create(@RequestBody UserInfo userInfo){
+        return userService.create(userInfo);
+    }
 
     @GetMapping
     public List<User> query(String name) {

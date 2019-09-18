@@ -9,8 +9,8 @@
         <module name="isuserapi" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="isuserapi" target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="isuserapi" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
