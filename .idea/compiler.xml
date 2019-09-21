@@ -13,10 +13,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="isorderapi" target="1.5" />
-      <module name="ispriceapi" target="1.5" />
-      <module name="isserverauth" target="1.5" />
-      <module name="isuserapi" target="1.5" />
+
+      <module name="isorderapi" target="8" />
+      <module name="ispriceapi" target="8" />
+      <module name="isserverauth" target="8" />
+      <module name="isuserapi" target="8" />
+
     </bytecodeTargetLevel>
   </component>
 </project>
