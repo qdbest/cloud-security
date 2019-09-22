@@ -9,16 +9,16 @@
         <module name="isserverauth" />
         <module name="isuserapi" />
         <module name="ispriceapi" />
+        <module name="isservergateway" />
         <module name="isorderapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-
       <module name="isorderapi" target="8" />
       <module name="ispriceapi" target="8" />
       <module name="isserverauth" target="8" />
+      <module name="isservergateway" target="8" />
       <module name="isuserapi" target="8" />
-
     </bytecodeTargetLevel>
   </component>
 </project>
